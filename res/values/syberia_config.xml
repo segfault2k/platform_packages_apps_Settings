@@ -19,16 +19,19 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
 
-    <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">false</bool>
-
-    <!-- Whether to show min refresh rate in display settings -->
-    <bool name="config_show_min_refresh_rate_switch">false</bool>
+    <!-- Whether to show min/max refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
 
     <!-- Battery Health -->
     <string name="config_batCurCap"></string>
     <string name="config_batDesCap"></string>
     <string name="config_batChargeCycle"></string>
     <bool name="config_supportBatteryHealth">false</bool>
+
+    <!-- Smart Charging -->
+    <bool name="config_supportSmartCharging">false</bool>
+
+    <!-- Screen off FOD -->
+    <bool name="config_supportScreenOffFod">false</bool>
 
 </resources>

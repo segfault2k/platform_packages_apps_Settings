@@ -56,7 +56,7 @@ android_library {
         "airbnb-lottie",
         "android.hardware.dumpstate-V1.0-java",
         "android.hardware.dumpstate-V1.1-java",
-        "VendorSupport-preference",
+        "custom-preference",
     ],
 
     libs: [
